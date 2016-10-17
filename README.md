@@ -15,6 +15,6 @@ NOTE: THIS FORK OF LHTTPC IS ONLY RECOMMENDED IF YOU HAVE MANY REQUESTS TO DO TO
 It contains load-balancing mechanisms described in http://ferd.ca/rtb-where-erlang-blooms.html. It is not meant for general purpose use.
 
 
-Plus:
- Increased more OTP service for getting worker process.
- * RANDOM_SIZE: define OTP server number. 
+Plus: In order to get bigger TPS under large concurrent 
+Increased more OTP service for getting worker process. 
+* RANDOM_SIZE: define OTP server number.
